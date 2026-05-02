@@ -13,6 +13,7 @@ from PIL import Image
 from data_loader import RescaleT, ToTensorLab, SalObjDataset
 from model import U2NET, U2NETP
 
+print("Hello")
 # Setup logger
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger()
