@@ -122,8 +122,8 @@ def main():
             d1, _, _, _, _, _, _ = net(inputs_test)
             pred = d1[:, 0, :, :]
             pred = normPRED(pred)
-
-            # Convert prediction to numpy array
+            print("changed something")
+            # Convert prediction to rnumpy array
             pred_np = pred.squeeze().cpu().data.numpy()
 
             # Load original image
